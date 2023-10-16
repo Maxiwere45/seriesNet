@@ -1,0 +1,622 @@
+[
+    {
+      "name": "24",
+      "genre": ["Action", "Thriller"],
+      "etoiles": 4.5
+    },
+    {
+      "name": "90210",
+      "genre": ["Drame", "Teen"],
+      "etoiles": 3.5
+    },
+    {
+      "name": "Alias",
+      "genre": ["Action", "Drame", "Espionnage"],
+      "etoiles": 4
+    },
+    {
+      "name": "Angel",
+      "genre": ["Drame", "Fantastique", "Surnaturel"],
+      "etoiles": 4
+    },
+    {
+      "name": "Battlestar Galactica",
+      "genre": ["Action", "Drame", "Science-fiction"],
+      "etoiles": 4.5
+    },
+    {
+      "name": "Better Off Ted",
+      "genre": ["Comédie", "Science-fiction"],
+      "etoiles": 4
+    },
+    {
+      "name": "Bionic Woman",
+      "genre": ["Action", "Drame", "Science-fiction"],
+      "etoiles": 2.5
+    },
+    {
+      "name": "Blade",
+      "genre": ["Action", "Fantastique"],
+      "etoiles": 3.5
+    },
+    {
+      "name": "Blood Ties",
+      "genre": ["Drame", "Fantastique", "Surnaturel"],
+      "etoiles": 3
+    },
+    {
+      "name": "Bones",
+      "genre": ["Crime", "Drame", "Mystère"],
+      "etoiles": 4
+    },
+    {
+      "name": "Breaking Bad",
+      "genre": ["Crime", "Drame", "Thriller"],
+      "etoiles": 5
+    },
+    {
+      "name": "Buffy the Vampire Slayer",
+      "genre": ["Action", "Drame", "Fantastique"],
+      "etoiles": 4.5
+    },
+    {
+      "name": "Burn Notice",
+      "genre": ["Action", "Aventure", "Thriller"],
+      "etoiles": 4
+    },
+    {
+      "name": "Californication",
+      "genre": ["Comédie", "Drame"],
+      "etoiles": 3.5
+    },
+    {
+      "name": "Caprica",
+      "genre": ["Drame", "Science-fiction"],
+      "etoiles": 3
+    },
+    {
+      "name": "Charmed",
+      "genre": ["Drame", "Fantastique"],
+      "etoiles": 3.5
+    },
+    {
+      "name": "Chuck",
+      "genre": ["Action", "Aventure", "Comédie"],
+      "etoiles": 4
+    },
+    {
+      "name": "Cold Case",
+      "genre": ["Crime", "Drame", "Mystère"],
+      "etoiles": 3.5
+    },
+    {
+      "name": "Community",
+      "genre": ["Comédie"],
+      "etoiles": 4
+    },
+    {
+      "name": "Criminal Minds",
+      "genre": ["Crime", "Drame", "Thriller"],
+      "etoiles": 4
+    },
+    {
+      "name": "Cupid",
+      "genre": ["Comédie", "Drame", "Romance"],
+      "etoiles": 3.5
+    },
+    {
+      "name": "Daybreak",
+      "genre": ["Drame", "Fantastique", "Science-fiction"],
+      "etoiles": 3
+    },
+    {
+      "name": "Demons",
+      "genre": ["Drame", "Fantastique", "Surnaturel"],
+      "etoiles": 3
+    },
+    {
+      "name": "Desperate Housewives",
+      "genre": ["Comédie dramatique", "Mystère"],
+      "etoiles": 3.5
+    },
+    {
+      "name": "Dexter",
+      "genre": ["Crime", "Drame", "Thriller"],
+      "etoiles": 4.5
+    },
+    {
+      "name": "Dirt",
+      "genre": ["Drame"],
+      "etoiles": 3
+    },
+    {
+      "name": "Dirty Sexy Money",
+      "genre": ["Drame"],
+      "etoiles": 3
+    },
+    {
+      "name": "Doctor Who",
+      "genre": ["Aventure", "Drame", "Science-fiction"],
+      "etoiles": 4
+    },
+    {
+      "name": "Dollhouse",
+      "genre": ["Drame", "Science-fiction"],
+      "etoiles": 3.5
+    },
+    {
+      "name": "Eleventh Hour",
+      "genre": ["Crime", "Drame", "Science-fiction"],
+      "etoiles": 3.5
+    },
+    {
+      "name": "Entourage",
+      "genre": ["Comédie", "Drame"],
+      "etoiles": 4
+    },
+    {
+      "name": "Eureka",
+      "genre": ["Comédie", "Drame", "Science-fiction"],
+      "etoiles": 4
+    },
+    {
+      "name": "Extras",
+      "genre": ["Comédie", "Drame"],
+      "etoiles": 4
+    },
+    {
+      "name": "Fear Itself",
+      "genre": ["Drame", "Horreur", "Thriller"],
+      "etoiles": 3
+    },
+    {
+      "name": "FlashForward",
+      "genre": ["Drame", "Science-fiction"],
+      "etoiles": 3.5
+    },
+    {
+      "name": "Flashpoint",
+      "genre": ["Action", "Crime", "Drame"],
+      "etoiles": 3.5
+    },
+    {
+      "name": "Flight of the Conchords",
+      "genre": ["Comédie", "Musical"],
+      "etoiles": 4
+    },
+    {
+      "name": "Friday Night Lights",
+      "genre": ["Drame", "Sport"],
+      "etoiles": 4
+    },
+    {
+      "name": "Friends",
+        "genre": ["Comédie", "Romance"],
+        "etoiles": 4
+    },
+    {
+        "name": "Fringe",
+        "genre": ["Drame", "Science-fiction"],
+        "etoiles": 4
+    },
+    {
+        "name" : "Futurama",
+        "genre" : ["Animation", "Comédie", "Science-fiction"],
+        "etoiles" : 4
+    },
+    {
+        "name" : "Gary Unmarried",
+        "genre" : ["Comédie"],
+        "etoiles" : 3
+    },
+    {
+        "name" : "Ghost Whisperer",
+        "genre" : ["Drame", "Fantastique"],
+        "etoiles" : 3
+    },
+    {
+        "name": "Gossy Girl",
+        "genre": ["Drame", "Romance"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Greek",
+        "genre": ["Comédie", "Drame"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Grey's Anatomy",
+        "genre": ["Comédie dramatique", "Médical"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Heroes",
+        "genre": ["Drame", "Science-fiction"],
+        "etoiles": 4
+    },
+    {
+        "name": "House",
+        "genre": ["Comédie dramatique", "Médical"],
+        "etoiles": 4
+    },
+    {
+        "name": "How I Met Your Mother",
+        "genre": ["Comédie", "Romance"],
+        "etoiles": 4
+    },
+    {
+        "name": "In Treatment",
+        "genre": ["Drame"],
+        "etoiles": 4
+    },
+    {
+        "name": "Invasion",
+        "genre": ["Drame", "Science-fiction"],
+        "etoiles": 3
+    },
+    {
+        "name": "Jekyll",
+        "genre": ["Drame", "Fantastique", "Surnaturel"],
+        "etoiles": 4
+    },
+    {
+        "name": "Jericho",
+        "genre": ["Drame", "Science-fiction"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "John from Cincinnati",
+        "genre": ["Drame", "Science-fiction"],
+        "etoiles": 3
+    },
+    {
+        "name": "Knight Rider",
+        "genre": ["Action", "Aventure", "Science-fiction"],
+        "etoiles": 2.5
+    },
+    {
+        "name": "Kyle XY",
+        "genre": ["Drame", "Science-fiction"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Legend of the Seeker",
+        "genre": ["Action", "Aventure", "Drame"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Leverage",
+        "genre": ["Action", "Crime", "Drame"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Lie to Me",
+        "genre": ["Crime", "Drame", "Thriller"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Life",
+        "genre": ["Crime", "Drame"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Lost",
+        "genre": ["Aventure", "Drame", "Fantastique"],
+        "etoiles": 4.5
+    },
+    {
+        "name": "Madmen",
+        "genre": ["Drame"],
+        "etoiles": 4
+    },
+    {
+        "name": "Masters of Sci-Fi",
+        "genre": ["Drame", "Science-fiction"],
+        "etoiles": 3
+    },
+    {
+        "name": "Medium",
+        "genre": ["Crime", "Drame", "Fantastique"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Melrose Place",
+        "genre": ["Drame"],
+        "etoiles": 3
+    },
+    {
+        "name": "Mental",
+        "genre": ["Drame"],
+        "etoiles": 3
+    },
+    {
+        "name": "Merlin",
+        "genre": ["Aventure", "Drame", "Fantastique"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Moonlight",
+        "genre": ["Drame", "Fantastique", "Surnaturel"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "My Name Is Earl",
+        "genre": ["Comédie"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "NCIS",
+        "genre": ["Crime", "Drame", "Mystère"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "NCIS: Los Angeles",
+        "genre": ["Crime", "Drame", "Mystère"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Nip/Tuck",
+        "genre": ["Drame"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "One Tree Hill",
+        "genre": ["Drame", "Romance"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Oz",
+        "genre": ["Crime", "Drame"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Painkiller Jane",
+        "genre": ["Action", "Drame", "Science-fiction"],
+        "etoiles": 2.5
+    },
+    {
+        "name": "Primeval",
+        "genre": ["Action", "Aventure", "Drame"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Prison Break",
+        "genre": ["Action", "Crime", "Drame"],
+        "etoiles": 4
+    },
+    {
+        "name": "Private Practice",
+        "genre": ["Comédie dramatique", "Médical"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Psych",
+        "genre": ["Comédie", "Crime", "Mystère"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Pushing Daisies",
+        "genre": ["Comédie", "Drame", "Fantastique"],
+        "etoiles": 4
+    },
+    {
+        "name": "Raines",
+        "genre": ["Crime", "Drame", "Mystère"],
+        "etoiles": 3
+    },
+    {
+        "name": "Reaper",
+        "genre": ["Comédie", "Drame", "Fantastique"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Robin Hood",
+        "genre": ["Action", "Aventure", "Drame"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Rome",
+        "genre": ["Action", "Drame", "Historique"],
+        "etoiles": 4
+    },
+    {
+        "name": "Samantha Who?",
+        "genre": ["Comédie", "Romance"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Sanctuary",
+        "genre": ["Drame", "Fantastique", "Science-fiction"],
+        "etoiles": 3
+    },
+    {
+        "name": "Scrubs",
+        "genre": ["Comédie", "Médical"],
+        "etoiles": 4
+    },
+    {
+        "name": "Sex and the City",
+        "genre": ["Comédie dramatique", "Romance"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Six Feet Under",
+        "genre": ["Comédie dramatique"],
+        "etoiles": 4
+    },
+    {
+        "name": "Skins",
+        "genre": ["Drame"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Smallville",
+        "genre": ["Aventure", "Drame", "Science-fiction"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Sons of Anarchy",
+        "genre": ["Crime", "Drame"],
+        "etoiles": 4
+    },
+    {
+        "name": "South Park",
+        "genre": ["Animation", "Comédie"],
+        "etoiles": 4
+    },
+    {
+        "name": "Spaced",
+        "genre": ["Comédie"],
+        "etoiles": 4
+    },
+    {
+        "name": "Stargate Atlantis",
+        "genre": ["Action", "Aventure", "Science-fiction"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Stargate SG-1",
+        "genre": ["Action", "Aventure", "Science-fiction"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Stargate Universe",
+        "genre": ["Action", "Aventure", "Science-fiction"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Supernatural",
+        "genre": ["Drame", "Fantastique", "Horreur"],
+        "etoiles": 4
+    },
+    {
+        "name": "Swingtown",
+        "genre": ["Drame"],
+        "etoiles": 3
+    },
+    {
+        "name": "The 4400",
+        "genre": ["Drame", "Science-fiction"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "The Big Bang Theory",
+        "genre": ["Comédie"],
+        "etoiles": 4
+    },
+    {
+        "name": "The Black Donnellys",
+        "genre": ["Crime", "Drame"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "The Kill Point",
+        "genre": ["Action", "Crime", "Drame"],
+        "etoiles": 3
+    },
+    {
+        "name": "The Lost Room",
+        "genre": ["Drame", "Fantastique", "Science-fiction"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "The Mentalist",
+        "genre": ["Crime", "Drame", "Mystère"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "The Nine",
+        "genre": ["Drame", "Thriller"],
+        "etoiles": 3
+    },
+    {
+        "name": "The O.C.",
+        "genre": ["Drame", "Romance"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "The Pretender",
+        "genre": ["Drame", "Science-fiction"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "The Riches",
+        "genre": ["Drame"],
+        "etoiles": 3
+    },
+    {
+        "name": "The Sarah Connor Chronicles",
+        "genre": ["Action", "Drame", "Science-fiction"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "The Shield",
+        "genre": ["Crime", "Drame", "Thriller"],
+        "etoiles": 4
+    },
+    {
+        "name": "The Sopranos",
+        "genre": ["Crime", "Drame"],
+        "etoiles": 4
+    },
+    {
+        "name": "The Tudors",
+        "genre": ["Drame", "Historique"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "The Vampire Diaries",
+        "genre": ["Drame", "Fantastique", "Horreur"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "The Wire",
+        "genre": ["Crime", "Drame", "Thriller"],
+        "etoiles": 4
+    },
+    {
+        "name": "Torchwood",
+        "genre": ["Action", "Drame", "Science-fiction"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Traveler",
+        "genre": ["Action", "Drame", "Thriller"],
+        "etoiles": 3
+    },
+    {
+        "name": "Ugly Betty",
+        "genre": ["Comédie dramatique"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "V",
+        "genre": ["Drame", "Science-fiction"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Veronica Mars",
+        "genre": ["Crime", "Drame", "Mystère"],
+        "etoiles": 4
+    },
+    {
+        "name": "Weeds",
+        "genre": ["Comédie", "Crime", "Drame"],
+        "etoiles": 3.5
+    },
+    {
+        "name": "Whitechapel",
+        "genre": ["Crime", "Drame", "Mystère"],
+        "etoiles": 3
+    },
+    {
+        "name": "Women's Murder Club",
+        "genre": ["Drame", "Thriller"],
+        "etoiles": 2.5
+    },
+    {
+        "name": "xfiles",
+        "genre": ["Horreur", "Surnaturel", "Drame", "Comédie"]
+    }
+
+]
