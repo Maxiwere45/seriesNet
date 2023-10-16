@@ -65,7 +65,7 @@ class tfIDF:
         except Exception as e:
             print(e)
             return []
-        return [self.SERIES_NAMES[idx] for idx in series_indices[:3]]
+        return [self.SERIES_NAMES[idx] for idx in series_indices[:5]]
 
     def getShapes(self):
         return self.TF_IDF_MATRIX.shape
@@ -79,12 +79,11 @@ if __name__ == '__main__':
     print("shape de la matrice VF: ", tiIDF_VF.getShapes())
     # print("shape de la matrice VO: ", tiIDF_VO.getShapes())
 
-    # Requête de l'utilisateur
-    queryUser = input('Requête: ')
-
-    # Récupération des séries similaires
-    series_similaires = tiIDF_VF.get_series_similaires(queryUser)
-
-    # Affichage des séries similaires
-    for i in range(5):
-        print(series_similaires[i])
+    while True:
+        # Requête de l'utilisateur
+        queryUser = input('Requête: ')
+        # Récupération des séries similaires
+        series_similaires = tiIDF_VF.get_series_similaires(queryUser)
+        # Affichage des séries similaires
+        for i in range(5):
+            print(series_similaires[i])
