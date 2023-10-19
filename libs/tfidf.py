@@ -64,11 +64,11 @@ class tfIDF:
             return []
         return [self.SERIES_INFOS[idx] for idx in series_indices[:5]]
 
-    def getShapes(self):
+    def getShapes(self) -> tuple:
         return self.TF_IDF_MATRIX.shape
 
-    def getSeriesNames(self):
-        return self.SERIES_INFOS
+    def getSeriesNames(self) -> list:
+        return self.series_names
 
 
 if __name__ == '__main__':
@@ -79,6 +79,7 @@ if __name__ == '__main__':
     print("shape de la matrice VF: ", tiIDF_VF.getShapes())
     print("shape de la matrice VO: ", tiIDF_VO.getShapes())
 
+    seriesNames = tiIDF_VF.getSeriesNames()
     while True:
         # Requête de l'utilisateur
         queryUser = input('Requête: ')
