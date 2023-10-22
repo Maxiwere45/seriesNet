@@ -73,11 +73,11 @@ class tfIDF:
 
 if __name__ == '__main__':
     # Création d'un objet tf_idf
-    tiIDF_VF = tfIDF('../data/data_VF.json', '../data/seriesInfos.json', 'VF')
-    tiIDF_VO = tfIDF('../data/data_VO.json', '../data/seriesInfos.json', 'VO')
+    tiIDF_VF = tfIDF('../data/data_vf.json', '../data/seriesInfos.json', 'VF')
+    #tiIDF_VO = tfIDF('../data/data_vo.json', '../data/seriesInfos.json', 'VO')
 
     print("shape de la matrice VF: ", tiIDF_VF.getShapes())
-    print("shape de la matrice VO: ", tiIDF_VO.getShapes())
+    #print("shape de la matrice VO: ", tiIDF_VO.getShapes())
 
     seriesNames = tiIDF_VF.getSeriesNames()
     while True:
