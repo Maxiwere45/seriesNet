@@ -3,6 +3,8 @@ from libs.tfidf import tfIDF
 from flask import render_template
 
 app = Flask(__name__, template_folder='templates', static_folder='static')
+print("Démarrage du serveur...")
+print("Chargement des données, veuillez patienter...")
 procVF = tfIDF('./data/data_vf.json', './data/seriesInfos.json', 'VF')
 procVO = tfIDF('./data/data_vo.json', './data/seriesInfos.json', 'VO')
 

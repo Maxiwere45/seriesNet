@@ -3,6 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import json
 import time
+import mmap
 
 
 class tfIDF:
@@ -12,20 +13,22 @@ class tfIDF:
 
     def __init__(self, data, series_names, type_series):
         st = time.time()
-        self.VECTORIZER = TfidfVectorizer()
+        self.__VECTORIZER__ = TfidfVectorizer()
         self.series_names = list()
         with open(series_names, 'r', encoding='utf-8') as f:
-            self.SERIES_INFOS = json.load(f)
+            mmap_file = mmap.mmap(f.fileno(), 0, access=mmap.ACCESS_READ) # Accélération de la lecture du fichier
+            self.SERIES_INFOS = json.load(mmap_file)
             for serie in self.SERIES_INFOS:
                 self.series_names.append(serie['name'].lower())
         with open(data, 'r') as f:
             try:
-                self.TF_IDF_MATRIX = self.VECTORIZER.fit_transform(json.load(f))
+                mmap_file = mmap.mmap(f.fileno(), 0, access=mmap.ACCESS_READ) # Accélération de la lecture du fichier
+                self.TF_IDF_MATRIX = self.__VECTORIZER__.fit_transform(json.load(mmap_file))
             except Exception as e:
                 print(e)
         self.type = type_series
         end = time.time()
-        print('Temps de chargement des données: ', end - st)
+        print(f'Sous-titres {type_series} OK, temps de chargement: {round(end - st, 2)}s')
 
     @staticmethod
     def detect_encoding(file_path) -> str:
@@ -44,7 +47,7 @@ class tfIDF:
         :param query: requête de l'utilisateur
         :return: liste des similarités cosinus
         """
-        query_vector = self.VECTORIZER.transform([query])
+        query_vector = self.__VECTORIZER__.transform([query])
         result = cosine_similarity(query_vector, self.TF_IDF_MATRIX)
         return result
 
@@ -69,7 +72,6 @@ class tfIDF:
 
     def getSeriesNames(self) -> list:
         return self.series_names
-
 
 if __name__ == '__main__':
     # Création d'un objet tf_idf

@@ -12,10 +12,17 @@ if __name__ == '__main__':
         print("Test pour la route '/' a échoué!")
 
     lang = input("Entrez la langue de la série (VF ou VO) : ")
+    if lang != "VF" and lang != "VO":
+        lang = "VF"
+        print("Langue par défaut : VF")
 
     while True:
         # Exemple de test pour la route '/search/id/lang'
-        id = input("Entrez un mot clé : ")
+        id = input("> Entrez un (ou des) mot clé : ")
+
+        if id == "cmd change lang":
+            lang = input("> Entrez la langue de la série (VF ou VO) : ")
+            id = input("> Entrez un (ou des) mot clé : ")
         if id == "exit now":
             break
 
