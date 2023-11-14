@@ -1,7 +1,7 @@
 [
     {
         "name": "24",
-        "genre": [
+        "genres": [
             "Action",
             "Thriller"
         ],
@@ -11,7 +11,7 @@
     },
     {
         "name": "90210",
-        "genre": [
+        "genres": [
             "Drame",
             "Teen"
         ],
@@ -21,7 +21,7 @@
     },
     {
         "name": "Alias",
-        "genre": [
+        "genres": [
             "Action",
             "Drame",
             "Espionnage"
@@ -32,7 +32,7 @@
     },
     {
         "name": "Angel",
-        "genre": [
+        "genres": [
             "Drame",
             "Fantastique",
             "Surnaturel"
@@ -43,7 +43,7 @@
     },
     {
         "name": "Battlestar Galactica",
-        "genre": [
+        "genres": [
             "Action",
             "Drame",
             "Science-fiction"
@@ -54,7 +54,7 @@
     },
     {
         "name": "Better Off Ted",
-        "genre": [
+        "genres": [
             "Com\u00e9die",
             "Science-fiction"
         ],
@@ -64,17 +64,18 @@
     },
     {
         "name": "Bionic Woman",
-        "genre": [
+        "genres": [
             "Action",
             "Drame",
             "Science-fiction"
         ],
         "etoiles": 2.5,
+        "synopsis": "Jaime Sommers est une jeune femme qui m\u00e8ne une vie paisible jusqu'au jour o\u00f9 un accident la laisse entre la vie et la mort. Pour la sauver, son petit ami, Will Anthros, la fait passer pour morte et la soumet \u00e0 une op\u00e9ration bionique. Jaime devient alors une femme bionique, dot\u00e9e de plusieurs capacit\u00e9s surhumaines. Elle est recrut\u00e9e par l'OSI, une agence gouvernementale secr\u00e8te, pour laquelle elle travaille comme agent sp\u00e9cial.",
         "id": 7
     },
     {
         "name": "Blade",
-        "genre": [
+        "genres": [
             "Action",
             "Fantastique"
         ],
@@ -84,7 +85,7 @@
     },
     {
         "name": "Blood Ties",
-        "genre": [
+        "genres": [
             "Drame",
             "Fantastique",
             "Surnaturel"
@@ -95,7 +96,7 @@
     },
     {
         "name": "Bones",
-        "genre": [
+        "genres": [
             "Crime",
             "Drame",
             "Myst\u00e8re"
@@ -106,7 +107,7 @@
     },
     {
         "name": "Breaking Bad",
-        "genre": [
+        "genres": [
             "Crime",
             "Drame",
             "Thriller"
@@ -117,7 +118,7 @@
     },
     {
         "name": "Buffy the Vampire Slayer",
-        "genre": [
+        "genres": [
             "Action",
             "Drame",
             "Fantastique"
@@ -128,7 +129,7 @@
     },
     {
         "name": "Burn Notice",
-        "genre": [
+        "genres": [
             "Action",
             "Aventure",
             "Thriller"
@@ -139,7 +140,7 @@
     },
     {
         "name": "Californication",
-        "genre": [
+        "genres": [
             "Com\u00e9die",
             "Drame"
         ],
@@ -149,7 +150,7 @@
     },
     {
         "name": "Caprica",
-        "genre": [
+        "genres": [
             "Drame",
             "Science-fiction"
         ],
@@ -159,7 +160,7 @@
     },
     {
         "name": "Charmed",
-        "genre": [
+        "genres": [
             "Drame",
             "Fantastique"
         ],
@@ -169,7 +170,7 @@
     },
     {
         "name": "Chuck",
-        "genre": [
+        "genres": [
             "Action",
             "Aventure",
             "Com\u00e9die"
@@ -180,7 +181,7 @@
     },
     {
         "name": "Cold Case",
-        "genre": [
+        "genres": [
             "Crime",
             "Drame",
             "Myst\u00e8re"
@@ -191,7 +192,7 @@
     },
     {
         "name": "Community",
-        "genre": [
+        "genres": [
             "Com\u00e9die"
         ],
         "etoiles": 4,
@@ -200,7 +201,7 @@
     },
     {
         "name": "Criminal Minds",
-        "genre": [
+        "genres": [
             "Crime",
             "Drame",
             "Thriller"
@@ -211,7 +212,7 @@
     },
     {
         "name": "Cupid",
-        "genre": [
+        "genres": [
             "Com\u00e9die",
             "Drame",
             "Romance"
@@ -222,7 +223,7 @@
     },
     {
         "name": "Daybreak",
-        "genre": [
+        "genres": [
             "Drame",
             "Fantastique",
             "Science-fiction"
@@ -233,7 +234,7 @@
     },
     {
         "name": "Demons",
-        "genre": [
+        "genres": [
             "Drame",
             "Fantastique",
             "Surnaturel"
@@ -244,7 +245,7 @@
     },
     {
         "name": "Desperate Housewives",
-        "genre": [
+        "genres": [
             "Com\u00e9die dramatique",
             "Myst\u00e8re"
         ],
@@ -254,7 +255,7 @@
     },
     {
         "name": "Dexter",
-        "genre": [
+        "genres": [
             "Crime",
             "Drame",
             "Thriller"
@@ -265,7 +266,7 @@
     },
     {
         "name": "Dirt",
-        "genre": [
+        "genres": [
             "Drame"
         ],
         "etoiles": 3,
@@ -274,7 +275,7 @@
     },
     {
         "name": "Dirty Sexy Money",
-        "genre": [
+        "genres": [
             "Drame"
         ],
         "etoiles": 3,
@@ -283,7 +284,7 @@
     },
     {
         "name": "Doctor Who",
-        "genre": [
+        "genres": [
             "Aventure",
             "Drame",
             "Science-fiction"
@@ -294,7 +295,7 @@
     },
     {
         "name": "Dollhouse",
-        "genre": [
+        "genres": [
             "Drame",
             "Science-fiction"
         ],
@@ -304,7 +305,7 @@
     },
     {
         "name": "Eleventh Hour",
-        "genre": [
+        "genres": [
             "Crime",
             "Drame",
             "Science-fiction"
@@ -315,7 +316,7 @@
     },
     {
         "name": "Entourage",
-        "genre": [
+        "genres": [
             "Com\u00e9die",
             "Drame"
         ],
@@ -325,7 +326,7 @@
     },
     {
         "name": "Eureka",
-        "genre": [
+        "genres": [
             "Com\u00e9die",
             "Drame",
             "Science-fiction"
@@ -336,7 +337,7 @@
     },
     {
         "name": "Extras",
-        "genre": [
+        "genres": [
             "Com\u00e9die",
             "Drame"
         ],
@@ -346,7 +347,7 @@
     },
     {
         "name": "Fear Itself",
-        "genre": [
+        "genres": [
             "Drame",
             "Horreur",
             "Thriller"
@@ -357,7 +358,7 @@
     },
     {
         "name": "FlashForward",
-        "genre": [
+        "genres": [
             "Drame",
             "Science-fiction"
         ],
@@ -367,7 +368,7 @@
     },
     {
         "name": "Flashpoint",
-        "genre": [
+        "genres": [
             "Action",
             "Crime",
             "Drame"
@@ -378,7 +379,7 @@
     },
     {
         "name": "Flight of the Conchords",
-        "genre": [
+        "genres": [
             "Com\u00e9die",
             "Musical"
         ],
@@ -388,7 +389,7 @@
     },
     {
         "name": "Friday Night Lights",
-        "genre": [
+        "genres": [
             "Drame",
             "Sport"
         ],
@@ -398,7 +399,7 @@
     },
     {
         "name": "Friends",
-        "genre": [
+        "genres": [
             "Com\u00e9die",
             "Romance"
         ],
@@ -408,7 +409,7 @@
     },
     {
         "name": "Fringe",
-        "genre": [
+        "genres": [
             "Drame",
             "Science-fiction"
         ],
@@ -418,7 +419,7 @@
     },
     {
         "name": "Futurama",
-        "genre": [
+        "genres": [
             "Animation",
             "Com\u00e9die",
             "Science-fiction"
@@ -429,7 +430,7 @@
     },
     {
         "name": "Gary Unmarried",
-        "genre": [
+        "genres": [
             "Com\u00e9die"
         ],
         "etoiles": 3,
@@ -438,7 +439,7 @@
     },
     {
         "name": "Ghost Whisperer",
-        "genre": [
+        "genres": [
             "Drame",
             "Fantastique"
         ],
@@ -448,7 +449,7 @@
     },
     {
         "name": "Gossy Girl",
-        "genre": [
+        "genres": [
             "Drame",
             "Romance"
         ],
@@ -458,7 +459,7 @@
     },
     {
         "name": "Greek",
-        "genre": [
+        "genres": [
             "Com\u00e9die",
             "Drame"
         ],
@@ -468,7 +469,7 @@
     },
     {
         "name": "Grey's Anatomy",
-        "genre": [
+        "genres": [
             "Com\u00e9die dramatique",
             "M\u00e9dical"
         ],
@@ -478,7 +479,7 @@
     },
     {
         "name": "Heroes",
-        "genre": [
+        "genres": [
             "Drame",
             "Science-fiction"
         ],
@@ -488,7 +489,7 @@
     },
     {
         "name": "House",
-        "genre": [
+        "genres": [
             "Com\u00e9die dramatique",
             "M\u00e9dical"
         ],
@@ -498,7 +499,7 @@
     },
     {
         "name": "How I Met Your Mother",
-        "genre": [
+        "genres": [
             "Com\u00e9die",
             "Romance"
         ],
@@ -508,7 +509,7 @@
     },
     {
         "name": "In Treatment",
-        "genre": [
+        "genres": [
             "Drame"
         ],
         "etoiles": 4,
@@ -517,7 +518,7 @@
     },
     {
         "name": "Invasion",
-        "genre": [
+        "genres": [
             "Drame",
             "Science-fiction"
         ],
@@ -527,7 +528,7 @@
     },
     {
         "name": "Jake",
-        "genre": [
+        "genres": [
             "Drame",
             "Fantastique",
             "Science-fiction"
@@ -538,7 +539,7 @@
     },
     {
         "name": "Jekyll",
-        "genre": [
+        "genres": [
             "Drame",
             "Fantastique",
             "Surnaturel"
@@ -549,7 +550,7 @@
     },
     {
         "name": "Jericho",
-        "genre": [
+        "genres": [
             "Drame",
             "Science-fiction"
         ],
@@ -559,7 +560,7 @@
     },
     {
         "name": "John from Cincinnati",
-        "genre": [
+        "genres": [
             "Drame",
             "Science-fiction"
         ],
@@ -569,7 +570,7 @@
     },
     {
         "name": "Journeyman",
-        "genre": [
+        "genres": [
             "Drame",
             "Science-fiction"
         ],
@@ -579,7 +580,7 @@
     },
     {
         "name": "Knight Rider",
-        "genre": [
+        "genres": [
             "Action",
             "Aventure",
             "Science-fiction"
@@ -590,7 +591,7 @@
     },
     {
         "name": "Kyle XY",
-        "genre": [
+        "genres": [
             "Drame",
             "Science-fiction"
         ],
@@ -600,7 +601,7 @@
     },
     {
         "name": "Legend of the Seeker",
-        "genre": [
+        "genres": [
             "Action",
             "Aventure",
             "Drame"
@@ -611,7 +612,7 @@
     },
     {
         "name": "Leverage",
-        "genre": [
+        "genres": [
             "Action",
             "Crime",
             "Drame"
@@ -622,7 +623,7 @@
     },
     {
         "name": "Lie to Me",
-        "genre": [
+        "genres": [
             "Crime",
             "Drame",
             "Thriller"
@@ -633,7 +634,7 @@
     },
     {
         "name": "Life",
-        "genre": [
+        "genres": [
             "Crime",
             "Drame"
         ],
@@ -643,7 +644,7 @@
     },
     {
         "name": "Lost",
-        "genre": [
+        "genres": [
             "Aventure",
             "Drame",
             "Fantastique"
@@ -654,7 +655,7 @@
     },
     {
         "name": "Madmen",
-        "genre": [
+        "genres": [
             "Drame"
         ],
         "etoiles": 4,
@@ -663,7 +664,7 @@
     },
     {
         "name": "Masters of Sci-Fi",
-        "genre": [
+        "genres": [
             "Drame",
             "Science-fiction"
         ],
@@ -673,7 +674,7 @@
     },
     {
         "name": "Medium",
-        "genre": [
+        "genres": [
             "Crime",
             "Drame",
             "Fantastique"
@@ -684,7 +685,7 @@
     },
     {
         "name": "Melrose Place",
-        "genre": [
+        "genres": [
             "Drame"
         ],
         "etoiles": 3,
@@ -693,7 +694,7 @@
     },
     {
         "name": "Mental",
-        "genre": [
+        "genres": [
             "Drame"
         ],
         "etoiles": 3,
@@ -702,7 +703,7 @@
     },
     {
         "name": "Merlin",
-        "genre": [
+        "genres": [
             "Aventure",
             "Drame",
             "Fantastique"
@@ -713,7 +714,7 @@
     },
     {
         "name": "Moonlight",
-        "genre": [
+        "genres": [
             "Drame",
             "Fantastique",
             "Surnaturel"
@@ -724,7 +725,7 @@
     },
     {
         "name": "My Name Is Earl",
-        "genre": [
+        "genres": [
             "Com\u00e9die"
         ],
         "etoiles": 3.5,
@@ -733,7 +734,7 @@
     },
     {
         "name": "NCIS",
-        "genre": [
+        "genres": [
             "Crime",
             "Drame",
             "Myst\u00e8re"
@@ -744,7 +745,7 @@
     },
     {
         "name": "NCIS: Los Angeles",
-        "genre": [
+        "genres": [
             "Crime",
             "Drame",
             "Myst\u00e8re"
@@ -755,7 +756,7 @@
     },
     {
         "name": "Nip/Tuck",
-        "genre": [
+        "genres": [
             "Drame"
         ],
         "etoiles": 3.5,
@@ -764,7 +765,7 @@
     },
     {
         "name": "One Tree Hill",
-        "genre": [
+        "genres": [
             "Drame",
             "Romance"
         ],
@@ -774,7 +775,7 @@
     },
     {
         "name": "Oz",
-        "genre": [
+        "genres": [
             "Crime",
             "Drame"
         ],
@@ -784,7 +785,7 @@
     },
     {
         "name": "Painkiller Jane",
-        "genre": [
+        "genres": [
             "Action",
             "Drame",
             "Science-fiction"
@@ -795,7 +796,7 @@
     },
     {
         "name": "Primeval",
-        "genre": [
+        "genres": [
             "Action",
             "Aventure",
             "Drame"
@@ -806,7 +807,7 @@
     },
     {
         "name": "Prison Break",
-        "genre": [
+        "genres": [
             "Action",
             "Crime",
             "Drame"
@@ -817,7 +818,7 @@
     },
     {
         "name": "Private Practice",
-        "genre": [
+        "genres": [
             "Com\u00e9die dramatique",
             "M\u00e9dical"
         ],
@@ -827,7 +828,7 @@
     },
     {
         "name": "Psych",
-        "genre": [
+        "genres": [
             "Com\u00e9die",
             "Crime",
             "Myst\u00e8re"
@@ -838,7 +839,7 @@
     },
     {
         "name": "Pushing Daisies",
-        "genre": [
+        "genres": [
             "Com\u00e9die",
             "Drame",
             "Fantastique"
@@ -849,7 +850,7 @@
     },
     {
         "name": "Raines",
-        "genre": [
+        "genres": [
             "Crime",
             "Drame",
             "Myst\u00e8re"
@@ -860,7 +861,7 @@
     },
     {
         "name": "Reaper",
-        "genre": [
+        "genres": [
             "Com\u00e9die",
             "Drame",
             "Fantastique"
@@ -871,7 +872,7 @@
     },
     {
         "name": "Robin Hood",
-        "genre": [
+        "genres": [
             "Action",
             "Aventure",
             "Drame"
@@ -882,7 +883,7 @@
     },
     {
         "name": "Rome",
-        "genre": [
+        "genres": [
             "Action",
             "Drame",
             "Historique"
@@ -893,7 +894,7 @@
     },
     {
         "name": "Samantha Who?",
-        "genre": [
+        "genres": [
             "Com\u00e9die",
             "Romance"
         ],
@@ -903,7 +904,7 @@
     },
     {
         "name": "Sanctuary",
-        "genre": [
+        "genres": [
             "Drame",
             "Fantastique",
             "Science-fiction"
@@ -914,7 +915,7 @@
     },
     {
         "name": "Scrubs",
-        "genre": [
+        "genres": [
             "Com\u00e9die",
             "M\u00e9dical"
         ],
@@ -924,7 +925,7 @@
     },
     {
         "name": "Sex and the City",
-        "genre": [
+        "genres": [
             "Com\u00e9die dramatique",
             "Romance"
         ],
@@ -934,7 +935,7 @@
     },
     {
         "name": "Six Feet Under",
-        "genre": [
+        "genres": [
             "Com\u00e9die dramatique"
         ],
         "etoiles": 4,
@@ -943,7 +944,7 @@
     },
     {
         "name": "Skins",
-        "genre": [
+        "genres": [
             "Drame"
         ],
         "etoiles": 3.5,
@@ -952,7 +953,7 @@
     },
     {
         "name": "Smallville",
-        "genre": [
+        "genres": [
             "Aventure",
             "Drame",
             "Science-fiction"
@@ -963,7 +964,7 @@
     },
     {
         "name": "Sons of Anarchy",
-        "genre": [
+        "genres": [
             "Crime",
             "Drame"
         ],
@@ -973,7 +974,7 @@
     },
     {
         "name": "South Park",
-        "genre": [
+        "genres": [
             "Animation",
             "Com\u00e9die"
         ],
@@ -983,7 +984,7 @@
     },
     {
         "name": "Spaced",
-        "genre": [
+        "genres": [
             "Com\u00e9die"
         ],
         "etoiles": 4,
@@ -992,7 +993,7 @@
     },
     {
         "name": "Stargate Atlantis",
-        "genre": [
+        "genres": [
             "Action",
             "Aventure",
             "Science-fiction"
@@ -1003,7 +1004,7 @@
     },
     {
         "name": "Stargate SG-1",
-        "genre": [
+        "genres": [
             "Action",
             "Aventure",
             "Science-fiction"
@@ -1014,7 +1015,7 @@
     },
     {
         "name": "Stargate Universe",
-        "genre": [
+        "genres": [
             "Action",
             "Aventure",
             "Science-fiction"
@@ -1025,7 +1026,7 @@
     },
     {
         "name": "Supernatural",
-        "genre": [
+        "genres": [
             "Drame",
             "Fantastique",
             "Horreur"
@@ -1036,7 +1037,7 @@
     },
     {
         "name": "Swingtown",
-        "genre": [
+        "genres": [
             "Drame"
         ],
         "etoiles": 3,
@@ -1045,7 +1046,7 @@
     },
     {
         "name": "The 4400",
-        "genre": [
+        "genres": [
             "Drame",
             "Science-fiction"
         ],
@@ -1055,7 +1056,7 @@
     },
     {
         "name": "The Big Bang Theory",
-        "genre": [
+        "genres": [
             "Com\u00e9die"
         ],
         "etoiles": 4,
@@ -1064,7 +1065,7 @@
     },
     {
         "name": "The Black Donnellys",
-        "genre": [
+        "genres": [
             "Crime",
             "Drame"
         ],
@@ -1074,7 +1075,7 @@
     },
     {
         "name": "The Kill Point",
-        "genre": [
+        "genres": [
             "Action",
             "Crime",
             "Drame"
@@ -1085,7 +1086,7 @@
     },
     {
         "name": "The Lost Room",
-        "genre": [
+        "genres": [
             "Drame",
             "Fantastique",
             "Science-fiction"
@@ -1096,7 +1097,7 @@
     },
     {
         "name": "The Mentalist",
-        "genre": [
+        "genres": [
             "Crime",
             "Drame",
             "Myst\u00e8re"
@@ -1107,7 +1108,7 @@
     },
     {
         "name": "The Nine",
-        "genre": [
+        "genres": [
             "Drame",
             "Thriller"
         ],
@@ -1117,7 +1118,7 @@
     },
     {
         "name": "The O.C.",
-        "genre": [
+        "genres": [
             "Drame",
             "Romance"
         ],
@@ -1127,7 +1128,7 @@
     },
     {
         "name": "The Pretender",
-        "genre": [
+        "genres": [
             "Drame",
             "Science-fiction"
         ],
@@ -1137,7 +1138,7 @@
     },
     {
         "name": "The Riches",
-        "genre": [
+        "genres": [
             "Drame"
         ],
         "etoiles": 3,
@@ -1146,7 +1147,7 @@
     },
     {
         "name": "The Sarah Connor Chronicles",
-        "genre": [
+        "genres": [
             "Action",
             "Drame",
             "Science-fiction"
@@ -1157,7 +1158,7 @@
     },
     {
         "name": "The Shield",
-        "genre": [
+        "genres": [
             "Crime",
             "Drame",
             "Thriller"
@@ -1168,7 +1169,7 @@
     },
     {
         "name": "The Sopranos",
-        "genre": [
+        "genres": [
             "Crime",
             "Drame"
         ],
@@ -1178,7 +1179,7 @@
     },
     {
         "name": "The Tudors",
-        "genre": [
+        "genres": [
             "Drame",
             "Historique"
         ],
@@ -1188,7 +1189,7 @@
     },
     {
         "name": "The Vampire Diaries",
-        "genre": [
+        "genres": [
             "Drame",
             "Fantastique",
             "Horreur"
@@ -1199,7 +1200,7 @@
     },
     {
         "name": "The Wire",
-        "genre": [
+        "genres": [
             "Crime",
             "Drame",
             "Thriller"
@@ -1210,7 +1211,7 @@
     },
     {
         "name": "Torchwood",
-        "genre": [
+        "genres": [
             "Action",
             "Drame",
             "Science-fiction"
@@ -1221,7 +1222,7 @@
     },
     {
         "name": "Traveler",
-        "genre": [
+        "genres": [
             "Action",
             "Drame",
             "Thriller"
@@ -1232,7 +1233,7 @@
     },
     {
         "name": "Trucalling",
-        "genre": [
+        "genres": [
             "Drame",
             "Fantastique",
             "Thriller"
@@ -1243,7 +1244,7 @@
     },
     {
         "name": "TrueBlood",
-        "genre": [
+        "genres": [
             "Drame",
             "Fantastique",
             "Horreur"
@@ -1254,7 +1255,7 @@
     },
     {
         "name": "Ugly Betty",
-        "genre": [
+        "genres": [
             "Com\u00e9die dramatique"
         ],
         "etoiles": 3.5,
@@ -1263,7 +1264,7 @@
     },
     {
         "name": "V",
-        "genre": [
+        "genres": [
             "Drame",
             "Science-fiction"
         ],
@@ -1273,7 +1274,7 @@
     },
     {
         "name": "Veronica Mars",
-        "genre": [
+        "genres": [
             "Crime",
             "Drame",
             "Myst\u00e8re"
@@ -1284,7 +1285,7 @@
     },
     {
         "name": "Weeds",
-        "genre": [
+        "genres": [
             "Com\u00e9die",
             "Crime",
             "Drame"
@@ -1295,7 +1296,7 @@
     },
     {
         "name": "Whitechapel",
-        "genre": [
+        "genres": [
             "Crime",
             "Drame",
             "Myst\u00e8re"
@@ -1306,7 +1307,7 @@
     },
     {
         "name": "Women's Murder Club",
-        "genre": [
+        "genres": [
             "Drame",
             "Thriller"
         ],
@@ -1316,7 +1317,7 @@
     },
     {
         "name": "xfiles",
-        "genre": [
+        "genres": [
             "Horreur",
             "Surnaturel",
             "Drame",

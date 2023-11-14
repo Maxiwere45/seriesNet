@@ -1,0 +1,5 @@
+
+{python:S101	"_Rename class "tfIDF" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(ย”ํดÿÿÿÿÿ
+ipython:S100F"MRename method "getShapes" to match the regular expression ^[a-z_][a-z0-9_]*$.(คส๐๛ÿÿÿÿ
+npython:S100I"RRename method "getSeriesNames" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÿฬิฅ๙ÿÿÿÿ
+;python:S125O"Remove this commented out code.(ห้ซüÿÿÿÿ

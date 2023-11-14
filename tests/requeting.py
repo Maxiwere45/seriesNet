@@ -34,7 +34,7 @@ if __name__ == '__main__':
             print(f"Test pour la route '/search/{id}/{lang}' réussi!")
             print("Résultats :")
             for serie in series_similaires:
-                print(f"  - {serie['name']}")
+                print(f"  - {serie}")
         else:
             print(f"Test pour la route '/search/{id}/{lang}' a échoué!")
 

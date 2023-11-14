@@ -8,7 +8,7 @@ def add_ids_to_json(json_data):
     return json_data
 
 if __name__ == '__main__':
-    datafile = r"/home/maxiwere45/PycharmProjects/seriesNet/data/seriesInfos.json"
+    datafile = r"../data/seriesInfos.json"
 
     with open(datafile, "r") as f:
         data = json.load(f)

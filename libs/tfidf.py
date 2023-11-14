@@ -65,7 +65,7 @@ class tfIDF:
         except Exception as e:
             print(e)
             return []
-        return [self.SERIES_INFOS[idx] for idx in series_indices[:5]]
+        return [self.SERIES_INFOS[idx]['id'] for idx in series_indices[:5]]
 
     def getShapes(self) -> tuple:
         return self.TF_IDF_MATRIX.shape
