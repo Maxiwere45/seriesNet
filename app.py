@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, abort
+from flask import Flask, jsonify, abort, request
 from libs.tfidf import tfIDF
 from flask import render_template
 
@@ -14,13 +14,24 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/search/<string:id>/<string:lang>', methods=['GET'])
-def search(id, lang="VF"):
+@app.route('/search', methods=['GET'])
+def search():
+    # Récupérer les paramètres de la requête
+    id = request.args.get('id', '')
+    lang = request.args.get('lang', 'VF')
+
+    # Vérifier si les paramètres nécessaires sont présents
+    if not id:
+        abort(400, "Le paramètre 'id' est requis.")
+
+    # Appeler la fonction de recherche appropriée en fonction de la langue
     if lang == "VO":
         series_similaires = procVO.get_series_similaires(id)
     else:
         series_similaires = procVF.get_series_similaires(id)
+
     return jsonify(series_similaires)
+
 
 if __name__ == '__main__':
     app.run()

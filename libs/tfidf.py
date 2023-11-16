@@ -16,6 +16,7 @@ class tfIDF:
         self.__VECTORIZER__ = TfidfVectorizer()
         self.series_names = list()
         with open(series_names, 'r', encoding='utf-8') as f:
+
             mmap_file = mmap.mmap(f.fileno(), 0, access=mmap.ACCESS_READ) # Accélération de la lecture du fichier
             self.SERIES_INFOS = json.load(mmap_file)
             for serie in self.SERIES_INFOS:
@@ -58,7 +59,7 @@ class tfIDF:
         """
         try:
             if query.lower() in self.series_names:
-                return [self.SERIES_INFOS[self.series_names.index(query.lower())]]
+                return self.SERIES_INFOS[self.series_names.index(query.lower())]['id']
             else:
                 similarities = self.compute_cosine_similarity(query)
                 series_indices = similarities.argsort()[0][::-1]
@@ -75,10 +76,10 @@ class tfIDF:
 
 if __name__ == '__main__':
     # Création d'un objet tf_idf
-    tiIDF_VF = tfIDF('../data/data_vf.json', '../data/seriesInfos.json', 'VF')
+    tiIDF_VF = tfIDF('../data/data_vf.json', '/home/maxiwere45/PycharmProjects/seriesNet/data/seriesInfos.json', 'VF')
     #tiIDF_VO = tfIDF('../data/data_vo.json', '../data/seriesInfos.json', 'VO')
 
-    print("shape de la matrice VF: ", tiIDF_VF.getShapes())
+    #print("shape de la matrice VF: ", tiIDF_VF.getShapes())
     #print("shape de la matrice VO: ", tiIDF_VO.getShapes())
 
     seriesNames = tiIDF_VF.getSeriesNames()
