@@ -18,7 +18,7 @@ def index():
 def search():
     # Récupérer les paramètres de la requête
     id = request.args.get('id', '')
-    lang = request.args.get('lang', 'VF')
+    lang = request.args.get('lang', '')
 
     # Vérifier si les paramètres nécessaires sont présents
     if not id:
