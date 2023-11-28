@@ -59,14 +59,14 @@ class tfIDF:
         """
         try:
             if query.lower() in self.series_names:
-                return self.SERIES_INFOS[self.series_names.index(query.lower())]['id']
+                return [self.SERIES_INFOS[self.series_names.index(query.lower())]['id']]
             else:
                 similarities = self.compute_cosine_similarity(query)
                 series_indices = similarities.argsort()[0][::-1]
         except Exception as e:
             print(e)
             return []
-        return [self.SERIES_INFOS[idx]['id'] for idx in series_indices[:5]]
+        return [self.SERIES_INFOS[idx]['id'] for idx in series_indices[:10]]
 
     def getShapes(self) -> tuple:
         return self.TF_IDF_MATRIX.shape

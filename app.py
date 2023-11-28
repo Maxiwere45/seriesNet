@@ -13,7 +13,6 @@ procVO = tfIDF('./data/data_vo.json', './data/seriesInfos.json', 'VO')
 def index():
     return render_template('index.html')
 
-
 @app.route('/search', methods=['GET'])
 def search():
     # Récupérer les paramètres de la requête
@@ -29,7 +28,6 @@ def search():
         series_similaires = procVO.get_series_similaires(id)
     else:
         series_similaires = procVF.get_series_similaires(id)
-
     return jsonify(series_similaires)
 
 
