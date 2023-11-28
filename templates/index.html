@@ -2,9 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>SerieNet API - Documentation</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <h1>SerieNet API - Documentation</h1>
+    <p>Documentation de l'API SerieNet</p>
+    <br>
+    <p>
+        Cette API permet de faire de la recherche de séries TV en utilisant un algorithme de recherche par similarité.
+        <br>
+        Elle utilise aussi l'algorithme TF-IDF pour calculer la pertinence des résultats.
+    </p>
+    <br>
+    <p>Les paramètres de la requête doivent être envoyés en URL Encoded.</p>
+    <p>Endpoints disponibles :</p>
+    <ul>
+        <li><a href="/search">/search</a></li>
+    </ul>
+    <br>
+    <p>
+        NOTE: Cette API est en cours de développement, les endpoints peuvent changer.
+        <br>
+        Elle est principalement utilisée pour le projet <strong>SerieNet</strong>
+    </p>
+
+    <p>Exemple de requête :</p>
+    <pre style="background-color: #f6e2e2; border: solid 2px blue">
+        <code>
+            {
+                "id": "vampire",
+                "lang": "VF"
+            }
+        </code>
+    </pre>
 </body>
 </html>
