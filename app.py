@@ -7,10 +7,12 @@ print("\nDémarrage du serveur SERIE.NET API...")
 print("Chargement des données, veuillez patienter...")
 procVF = tfIDF('./data/data_vf.json', './data/seriesInfos.json', 'VF')
 procVO = tfIDF('./data/data_vo.json', './data/seriesInfos.json', 'VO')
-    
+
+
 @app.route('/')
 def index():
     return render_template('index.html')
+
 
 @app.route('/search', methods=['GET'])
 def search():
