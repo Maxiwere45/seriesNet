@@ -16,7 +16,7 @@ class tfIDF:
         self.__VECTORIZER__ = TfidfVectorizer()
         self.series_names = list()
         with open(series_names, 'r', encoding='utf-8') as f:
-            mmap_file = mmap.mmap(f.fileno(), 0, access=mmap.ACCESS_READ)  # Accélération de la lecture du fichier
+            mmap_file = mmap.mmap(f.fileno(), 0, access=mmap.ACCESS_READ)  			# Accélération de la lecture du fichier
             self.SERIES_INFOS = json.load(mmap_file)
             for serie in self.SERIES_INFOS:
                 self.series_names.append(serie['name'].lower())
@@ -28,7 +28,7 @@ class tfIDF:
                 print(e)
         self.type = type_series
         end = time.time()
-        print(f'Sous-titres {type_series} OK, temps de chargement: {round(end - st, 2)}s')
+        print(f'Bloc {type_series} OK, temps de chargement: {round(end - st, 2)}s')
 
     @staticmethod
     def detect_encoding(file_path) -> str:
