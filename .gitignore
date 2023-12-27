@@ -1,5 +1,5 @@
 data/data_vf.json
 data/data_vo.json
-venv/*
+.venv/*
 __pycache__
 .idea/*
