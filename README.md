@@ -24,13 +24,15 @@ leurs sous-titres. Il utilise l'algorithme de recherche de similarité de textes
 - virtualenv
 - git
 
-### Installation (Linux)
+### Installation
 
 1. Cloner le projet
 > `git clone [url du projet]`
 
 2. Créer un environnement virtuel dans le dossier du projet
 > `python3 -m venv .venv`
+
+* En cas de difficulté, se référer à la documentation officielle de [Python](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
 
 3. Activer l'environnement virtuel
 > `source .venv/bin/activate`
@@ -42,6 +44,10 @@ leurs sous-titres. Il utilise l'algorithme de recherche de similarité de textes
 
 6. Décompresser l'archive dans le dossier `data`
 
+* Le dossier `data` doit contenir les fichiers suivants :
+  * `data/data_vf.json`
+  * `data/data_vo.json`
+  * `data/seriesInfos.json`
 
 ## Utilisation
 
