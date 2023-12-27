@@ -5,7 +5,7 @@
 - [Description](#description)
 - [Installation](#installation)
   - [Prérequis](#prérequis)
-  - [Installation (Linux)](#installation-linux)
+  - [Installation (Linux)](#installation)
   - [Utilisation](#utilisation)
 - [Auteurs](#auteurs)
 - [Crédits](#crédits)
