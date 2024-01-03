@@ -1,6 +1,6 @@
 # SerieNet API
 
-<img src="./data/logo.png" alt="logo" width="200"/>
+<img src="data/autres/logo.png" alt="logo" width="200"/>
 
 ## Sommaire
 
@@ -16,6 +16,21 @@
 
 SerieNet API est un serveur FLASK permettant de réaliser des recherches de séries TV des années 90 via
 leurs sous-titres. Il utilise l'algorithme de recherche de similarité de textes TF-IDF.
+
+* Initialisation :
+
+<img src="data/autres/TF-IDF.png" alt="initialisation" width="386"/>
+
+Lors de l'initialisation, l'API va créer 2 Objets `TF-IDF` (un pour les sous-titres en français et un pour les sous-titres en anglais) 
+qui vont permettre de calculer la similarité entre les sous-titres et la requête de l'utilisateur.
+Chaque objet `TF-IDF` va être initialisé et va stocker une matrice TF-IDF pour chaque série TV.
+
+* Recherche :
+
+<img src="data/autres/process.png" alt="recherche" width="981"/>
+
+Lors d'une recherche, l'API va récupérer la requête de l'utilisateur et va la traiter. Elle va ensuite calculer la similarité entre la requête et chaque série TV. 
+Les séries TV ayant une similarité supérieure à 0.1 seront retournées à l'utilisateur avec une limite de 5 séries TV triées par ordre décroissant de similarité.
 
 ## Installation
 
