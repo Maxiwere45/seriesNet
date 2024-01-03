@@ -83,10 +83,10 @@ pip install -r data/requirements.txt
 
 ## Utilisation
 
-* Exécuter la commande suivante pour lancer le serveur :
+* Exécuter la commande suivante depuis le dossier racine du projet pour lancer le serveur :
 
 ```bash
-en préparation
+gunicorn -w 1 -b 0.0.0.0:5000 app:app
 ```
 
 ## Auteurs
