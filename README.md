@@ -17,28 +17,43 @@ leurs sous-titres. Il utilise l'algorithme de recherche de similarité de textes
 
 ## Installation
 
+* *Le projet a été développé sous Linux, il est donc **recommandé** d'utiliser un **environnement Linux** pour l'installation.*
+* *Si vous possédez la VM serieNet.ova, vous pouvez directement lire le README.md présent sur le bureau de la VM.*
+
 ### Prérequis
 
-- Python 3.8 ou supérieur
-- pip
-- virtualenv
-- git
+- `Python 3.8 ou supérieur`
+- `pip`
+- `virtualenv`
+- `git`
 
 ### Installation
 
 1. Cloner le projet
-> `git clone [url du projet]`
+
+```bash
+git clone https://github.com/Maxiwere45/seriesNet
+```
 
 2. Créer un environnement virtuel dans le dossier du projet
-> `python3 -m venv .venv`
+
+```bash
+python3 -m venv .venv
+```
 
 * En cas de difficulté, se référer à la documentation officielle de [Python](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
 
 3. Activer l'environnement virtuel
-> `source .venv/bin/activate`
+
+```bash
+source .venv/bin/activate
+```
 
 4. Installer les dépendances avec la commande 
-> `pip install -r data/requirements.txt`
+
+```bash
+pip install -r data/requirements.txt
+```
 
 5. Télécharger les données nécessaires au fonctionnement de l'API depuis le lien suivant : `en cours de création`
 
@@ -53,7 +68,9 @@ leurs sous-titres. Il utilise l'algorithme de recherche de similarité de textes
 
 * Exécuter la commande suivante pour lancer le serveur :
 
-> `gunicorn --bind`
+```bash
+en préparation
+```
 
 ## Auteurs
 
