@@ -1,5 +1,7 @@
 # SerieNet API
 
+<img src="./data/logo.png" alt="logo" width="200"/>
+
 ## Sommaire
 
 - [Description](#description)
