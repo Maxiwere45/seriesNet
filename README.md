@@ -25,7 +25,7 @@ Lors de l'initialisation, l'API va créer 2 Objets `TF-IDF` (un pour les sous-ti
 qui vont permettre de calculer la similarité entre les sous-titres et la requête de l'utilisateur.
 Chaque objet `TF-IDF` va être initialisé et va stocker une matrice TF-IDF pour chaque série TV.
 
-> `TF-IDF` est la clase conçu qui utilise la librairie [scikit-learn](https://scikit-learn.org/stable/) pour créer une matrice TF-IDF avec la méthode 
+> `TF-IDF` est la classe conçue qui utilise la librairie [scikit-learn](https://scikit-learn.org/stable/) pour créer une matrice TF-IDF avec la méthode 
 > [TfidfVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html) et calculer la similarité 
 > entre 2 textes avec la méthode [cosine_similarity](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html). (Merci à Julien Breton pour la découverte de cette technique :) )
 
