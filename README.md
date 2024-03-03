@@ -1,4 +1,4 @@
-# SerieNet API
+# Serie.Net API
 
 <img src="data/autres/logo.png" alt="logo" width="200"/>
 
